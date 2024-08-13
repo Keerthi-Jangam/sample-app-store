@@ -16,9 +16,9 @@ export function Events({ changeName, setChangeName }:any) {
       {/* <h1>{changeName}</h1>
       <button onClick={handleClick}>Click Me</button> */}
      
-      <button onClick={setCount(count+1)}>Click Me</button>
+      {/* <button onClick={setCount(count+1)}>Click Me</button> */}
       <h1>{count}</h1>
-      {/* <button onClick={handleIncrementLike}>Click Me</button>  */}
+      <button onClick={handleIncrementLike}>Click Me</button> 
      
     </div>
   );
