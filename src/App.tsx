@@ -8,7 +8,7 @@ function App() {
   const [changeName, setChangeName] = useState("Keerthi");
   return (
     <div className="App">
-      {/* <StateVsProp changeName={changeName} setChangeName={setChangeName} /> */}
+      <StateVsProp changeName={changeName} setChangeName={setChangeName} />
       <Events changeName={changeName} setChangeName={setChangeName} />
     </div>
   );
